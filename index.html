@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Utpol Debnath</title>
+	</head>
+
+	<style>
+		a:hover {
+			text-decoration: none;
+		}
+
+		.home {
+            text-decoration: none;
+			height: 100vh;
+			background: black;
+		}
+
+		.splash {
+			height: 100%;
+			width: 100%;
+			text-align: center;
+			display: flex;
+			justify-content: center; /* align horizontal */
+			align-items: center; /* align vertical */
+		}
+
+		.intro {
+			padding-right: 15px;
+			padding-bottom: 15px;
+		}
+
+		.CTA {
+            width: 252px;
+            padding: 9px;
+            color: #28324e;
+            font-size: large;
+            cursor: pointer;
+		}
+
+		.CTA:hover {
+			background-color: #28324e;
+			border-color: white;
+			color: white;
+		}
+
+		.splash h1 {
+			color: #ffffff;
+		}
+
+		.splash p {
+			padding-top: 10px;
+			color: #ffffff;
+		}
+	</style>
+	<body>
+		<div class="container-main">
+			<div class="container-fluid">
+				<div class="row home">
+					<div class="col-md-12 splash">
+						<a href="#">
+							<div class="intro">
+								<h1>Utpol Debnath</h1>
+							</div>
+							<button type="button" id="redirect-git" class="btn btn-default CTA">
+								Github
+							</button>
+							<div class="sub">
+
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+    <script>
+        var $click = document.getElementById('redirect-git').addEventListener("click", () => window.location.href = "https://github.com/devutpol/");
+    </script>
+</html>
