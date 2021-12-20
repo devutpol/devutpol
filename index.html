@@ -1,82 +1,203 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Utpol Debnath</title>
-	</head>
+<html lang="en-UK">
+<head>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="Utpol Deb Nath: Software Developer">
+	<meta name="keywords" content="Utpol Deb Nath, DevUtpol, Utpol, devutpol, Deb Nath, Deb Nath Utpol, Nath Utpol, Dev Utpol, dev utpol, utpol, utpal, devutpal, DevUtpal, Utpal Deb Nath, Deb Nath Utpal, DevUtpal, dev_utpol, programming, developer, developer utpol, উৎপল, উৎপল দেব নাথ">
+	<title> Utpol Deb Nath </title>
+<!--	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">-->
+<!--	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/android-chrome-96x96.png">-->
+<!--	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">-->
+<!--	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">-->
+	<link rel="manifest" href="/assets/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="apple-mobile-web-app-title" content="Utpol Deb Nath">
+	<meta name="application-name" content="Utpol Deb Nath">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#2c2c2c">
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body data-theme="dark">
 
-	<style>
-		a:hover {
-			text-decoration: none;
-		}
+<div class="theme-switch">
+	<a class="switch-theme" id="mood">
+		<i class='fa fa-sun-o'></i>
+		<i class="fa fa-moon-o"></i>
+	</a>
+</div>
 
-		.home {
-            text-decoration: none;
-			height: 100vh;
-			background: black;
-		}
 
-		.splash {
-			height: 100%;
-			width: 100%;
-			text-align: center;
-			display: flex;
-			justify-content: center; /* align horizontal */
-			align-items: center; /* align vertical */
-		}
+<div class="react-tabs">
+	<div class="header">
+		<ul class="icon-menu" role="tablist">
+			<li data-tab-id="home" class="icon-box active" role="tab"><i class="fa fa-home"></i><h2 data-tab-id="home">Home</h2></li>
+			<li data-tab-id="portfolio" class="icon-box" role="tab"><i class="fa fa-briefcase"></i><h2 data-tab-id="portfolio">Portfolio</h2></li>
+			<li data-tab-id="contact" class="icon-box" role="tab"><i class="fa fa-envelope-open"></i><h2 data-tab-id="contact">Contact</h2></li>
+		</ul>
+	</div>
+	<div class="tab-panel_list">
+		<div id="home" class="home-section section-tab active">
+			<div class="container-fluid container-home animate-fade">
+				<div class="color-block d-none d-lg-block"></div>
+				<div class="row home-details-container align-items-center">
+					<div class="col-md-4 author-img bg position-fixed d-none d-lg-block theme-dark-pp" style="background-image: url('assets/img/me7.jpeg');"></div>
+					<div class="col-md-4 author-img bg position-fixed d-none d-lg-block theme-light-pp" style="background-image: url('assets/img/me3.png');"></div>
+					<div class="col-md-8 offset-lg-4 author-about">
+						<div class="about">
+							<img src="assets/img/me7.jpeg" class="img-fluid main-img-mobile d-sm-block d-lg-none theme-dark-pp" alt="Utpol Deb Nath">
+							<img src="assets/img/me3.png" class="img-fluid main-img-mobile d-sm-block d-lg-none theme-light-pp" alt="Utpol Deb Nath">
 
-		.intro {
-			padding-right: 15px;
-			padding-bottom: 15px;
-		}
-
-		.CTA {
-            width: 252px;
-            padding: 9px;
-            color: #28324e;
-            font-size: large;
-            cursor: pointer;
-		}
-
-		.CTA:hover {
-			background-color: #28324e;
-			border-color: white;
-			color: white;
-		}
-
-		.splash h1 {
-			color: #ffffff;
-		}
-
-		.splash p {
-			padding-top: 10px;
-			color: #ffffff;
-		}
-	</style>
-	<body>
-		<div class="container-main">
-			<div class="container-fluid">
-				<div class="row home">
-					<div class="col-md-12 splash">
-						<a href="#">
-							<div class="intro">
-								<h1>Utpol Debnath</h1>
-							</div>
-							<button type="button" id="redirect-git" class="btn btn-default CTA">
-								Github
-							</button>
-							<div class="sub">
-
-							</div>
-						</a>
+							<span class="hello">Hello!</span>
+							<h1 class="text-uppercase poppins-font">I'm Utpol Deb Nath.<span>Software Developer</span></h1>
+							<p class="author-bio">I'm a software developer focused on WordPress and a web enthusiast by passion. I enjoy debugging, solving problems, learning something new, and contributing to open-source projects.
+							</p>
+							<p class="author-bio">I currently lead the <a href="https://wpsocialninja.com/" target="_blank">WP Social Ninja</a> team at <a href="https://wpmanageninja.com/" target="_blank">WPManageNinja</a>.</p>
+<!--							<p class="author-bio">I currently live in Sylhet, Bangladesh, and Work at <a href="https://wpmanageninja.com/" target="_blank">WPManageNinja</a> the folks behind-->
+<!--								<a href="https://fluentforms.com/" target="_blank">Fluent Forms</a>, <a href="https://fluentcrm.com/" target="_blank">Fluent CRM</a>,-->
+<!--								where i press keys on <a href="https://wpsocialninja.com/" target="_blank">WP Social Ninja</a>.</p>-->
+							<a class="button" href="mailto:utpol2nt2@gmail.com" target="_blank" >
+								<span class="button-text">say hello</span>
+								<span class="button-icon fa fa-arrow-right"></span>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</body>
-    <script>
-        var $click = document.getElementById('redirect-git').addEventListener("click", () => window.location.href = "https://github.com/devutpol/");
-    </script>
+		<div id="portfolio" class="portfolio-section section-tab">
+			<div class="container-fluid animate-fade">
+				<div class="title-section text-left text-sm-center">
+					<h1>My <span>portfolio</span></h1>
+					<span class="title-bg">Works</span>
+				</div>
+				<div class="main-content">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<h3 class="inner-title">WordPress Plugins</h3>
+								<ul class="portfolio-list mb-50">
+									<li>
+										<a href="https://wordpress.org/plugins/wp-social-reviews/" target="_blank">
+											<h4>WP Social Ninja – The all-in-one WordPress Social Media Plugin for Social Reviews, Social Feeds and Social Chat</h4>
+											<span>@wordpress.org</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://wordpress.org/plugins/guten-post-layout/" target="_blank">
+											<h4>Guten Post Layout – An Advanced Post Grid Collection for WordPress Gutenberg</h4>
+											<span>@wordpress.org</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://wordpress.org/plugins/enhanced-blocks/" target="_blank">
+											<h4>Enhanced Blocks – Page Builder Blocks for Gutenberg</h4>
+											<span>@wordpress.org</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-4">
+								<h3 class="inner-title">WordPress Themes</h3>
+								<ul class="portfolio-list">
+									<li>
+										<a href="https://themeforest.net/item/academix-multipurpose-researcher-and-professor-wordpress-theme/20798003" target="_blank">
+											<h4>Academix - Multipurpose Education, Researcher and Professor WordPress Theme</h4>
+											<span>@themeforest.net</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://themeforest.net/item/mentis-psychotherapist-wordpress-theme/20115255" target="_blank">
+											<h4>Mentis - WordPress Theme Mentis for Therapists, Psychiatrists & Life coaches</h4>
+											<span>@themeforest.net</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://themeforest.net/item/appcloud-wordpress-landing-page-theme/20395945" target="_blank">
+											<h4>AppCloud - App Landing WordPress Theme</h4>
+											<span>@themeforest.net</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-4 mt-70">
+								<ul class="portfolio-list">
+									<li>
+										<a href="https://wordpress.org/themes/simpli/" target="_blank">
+											<h4>Simpli - WooCommerce & Blogging WordPress Theme</h4>
+											<span>@wordpress.org</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://themeforest.net/item/mixpack-multipurpose-wordpress-theme/21143926" target="_blank">
+											<h4>MixPack - Multipurpose WordPress Theme</h4>
+											<span>@themeforest.net</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contact" class="contact-section section-tab">
+			<div class="container-fluid animate-fade">
+				<div class="title-section">
+					<h1>GET IN <span>Touch</span></h1>
+					<span class="title-bg">Contact</span>
+				</div>
+				<div class="main-content">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 max-width-840 mlr-auto">
+								<p class="text-center">If you’d like to get in touch with me. Here are some URLs for you to get connected with me.</p>
+								<ul class="social list-unstyled pt-1 mb-5">
+									<li>
+										<a href="mailto:utpol2nt2@gmail.com" target="_blank" rel="noreferrer">
+											<i class="fa fa-at"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://profiles.wordpress.org/devutpol/" target="_blank" rel="noreferrer">
+											<i class="fa fa-wordpress"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/devutpol" target="_blank" rel="noreferrer">
+											<i class="fa fa-github"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/dev_utpol" target="_blank" rel="noreferrer">
+											<i class="fa fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.linkedin.com/in/utpol-deb-nath-7b7407138/" target="_blank" rel="noreferrer">
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.facebook.com/utpol.mitu" target="_blank" rel="noreferrer">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+<!--	<a class="footer_item" href="mailto:utpol2nt2@gmail.com?subject=Resume%20Request&amp;body=Hello%20Utpol%20.%20My%20name%20is%20_____%20and%20I%20would%20like%20to%20get%20a%20copy%20of%20your%20resume%20">-->
+<!--		<i>Request resume</i>-->
+<!--	</a>-->
+	<span class="footer_item">Utpol Deb Nath © 2021 - </span> <small class="footer_theme-copyright"> I ♡ WordPress </small>
+</div>
+<script src="/assets/js/main.js" defer="defer"></script>
+</body>
 </html>
